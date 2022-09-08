@@ -196,7 +196,7 @@ h1{
 
 .anime{
     animation-name: rotate;
-    animation-duration: 3000ms;
+    animation-duration: 5000ms;
     transition-duration: normal;
     animation-iteration-count: 2;
 }
