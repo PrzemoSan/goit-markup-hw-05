@@ -225,7 +225,7 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-    overflow: hidden;
+/*     overflow: hidden; */
     background-color: #FFFFFF;
 }
 
