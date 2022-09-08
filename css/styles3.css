@@ -195,7 +195,9 @@ h1{
 }
 
 .close-button{
-
+    width: 30px;
+    height:30px;
+    fill: #212121;
 }
 
 .about-icon{
@@ -596,6 +598,7 @@ figure{
     transform: translateY(110%);
     transition: 400ms;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .portfolio-img:hover,
