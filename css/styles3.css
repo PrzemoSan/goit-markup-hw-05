@@ -218,22 +218,23 @@ h1{
 
 .close-button{
     position: absolute;
-    top: 8px;
-    right: 8px;
-    /* border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%; */
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.close-icon{
-    position: absolute;
     width: 30px;
     height:30px;
     top: 8px;
     right: 8px;
-    fill: #212121;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
     background-color: #FFFFFF;
+}
+
+.close-icon{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    fill: #212121;
+    
 }
 
 .about-icon{
