@@ -198,7 +198,7 @@ h1{
     animation-name: rotate;
     animation-duration: 3000ms;
     animation-direction: alternate;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2;
     transition-timing-function: linear;
     transform-origin: center center;
 }
