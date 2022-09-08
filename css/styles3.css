@@ -57,7 +57,7 @@
 
 .studio::after,
 .portfolio::after,
-.contact::after{
+.contacts::after{
     position: absolute;
     display: block;
     top:28px;
