@@ -200,6 +200,7 @@ h1{
     transition-duration: normal;
     animation-iteration-count: 2;
     transition-timing-function: linear;
+    transform-origin: center center;
 }
 
 @keyframes rotate{
