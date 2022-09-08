@@ -195,10 +195,11 @@ h1{
 }
 
 .anime{
-    animation-name: rotate;
+   animation-name: rotate;
     animation-duration: 3000ms;
     transition-duration: normal;
     animation-iteration-count: 1;
+    transition-timing-function: linear;
 }
 
 @keyframes rotate{
@@ -222,8 +223,6 @@ h1{
     border-radius: 50%;
     cursor: pointer;
 }
-
-
 
 .about-icon{
     justify-content: center;
