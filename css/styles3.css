@@ -55,9 +55,9 @@
     position: relative;
 }
 
-.studio:active ::after,
-.portfolio:active ::after,
-.contact:active ::after{
+.studio::after,
+.portfolio::after,
+.contact::after{
     position: absolute;
     display: block;
     top:28px;
@@ -130,12 +130,6 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio::after,
-.studio::after,
-.contacts::after {
-    background-color: red;
-}
-
 .request {
     background-color:#2F303A;
     width: 1600px;
@@ -154,6 +148,7 @@ h1{
     margin-top: 0;
     text-align: center;
 }
+
 .button { 
     background-color: #2196F3;
     line-height: 1.87;
@@ -198,9 +193,9 @@ h1{
     animation-name: rotate;
     animation-duration: 3000ms;
     animation-direction: alternate;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     transition-timing-function: linear;
-    transform-origin: center center;
+    transform-origin: 50% 50%;
 }
 
 @keyframes rotate{
@@ -224,6 +219,8 @@ h1{
     border-radius: 50%;
     cursor: pointer;
 }
+
+
 
 .about-icon{
     justify-content: center;
