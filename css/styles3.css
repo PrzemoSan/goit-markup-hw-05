@@ -196,20 +196,17 @@ h1{
 
 .anime{
     animation-name: rotate;
-    animation-duration: 5000ms;
+    animation-duration: 3000ms;
     transition-duration: normal;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
 }
 
 @keyframes rotate{
     0% {
         rotate: 0deg;
     }
-    50% {
-        rotate: 720deg;
-    }
     100%{
-        rotate: 1080deg
+        rotate: 720deg
     }
 }
 
