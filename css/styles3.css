@@ -198,6 +198,7 @@ h1{
     animation-name: rotate;
     animation-duration: 3000ms;
     transition-duration: normal;
+    animation-iteration-count: 2;
 }
 
 @keyframes rotate{
