@@ -191,7 +191,25 @@ h1{
     border-radius: 4px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+}
+
+.anime{
+    animation-name: rotate;
+    animation-duration: 3ms;
+    transition-duration: normal;
+}
+
+@keyframes rotate{
+    0% {
+        rotate: 0deg;
+    }
+    50% {
+        rotate: 720deg;
+    }
+    100%{
+        rotate: 1080deg
+    }
 }
 
 .close-button{
@@ -206,6 +224,8 @@ h1{
     border-radius: 50%;
     cursor: pointer;
 }
+
+
 
 .about-icon{
     justify-content: center;
