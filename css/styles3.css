@@ -55,9 +55,9 @@
     position: relative;
 }
 
-.studio::after,
-.portfolio::after,
-.contact::after{
+.studio:active ::after,
+.portfolio:active ::after,
+.contact:active ::after{
     position: absolute;
     display: block;
     top:28px;
