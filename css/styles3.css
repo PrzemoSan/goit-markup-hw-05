@@ -329,7 +329,7 @@ figure{
 }
 
 .label-position{
-/*     position: absolute; */
+    position: absolute;
     width: 182px;
     height: 16px;
     margin: auto;
