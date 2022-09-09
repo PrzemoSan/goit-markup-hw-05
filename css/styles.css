@@ -55,8 +55,7 @@
     position: relative;
 }
 
-.studio::after,
-.portfolio::after{
+.underscore::after{
     position: absolute;
     display: block;
     top:28px;
@@ -387,6 +386,7 @@ figure{
     fill: #AFB1B8;
     border-radius: 50%;
     background-color: white;
+    height: 44px;
 }
 
 .our-social-icon:hover{
@@ -541,6 +541,7 @@ figure{
     cursor: pointer;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    height: 44px;
 }
 
 .second-menu{
