@@ -228,18 +228,20 @@ h1{
     background-color: #FFFFFF;
     justify-content: center;
     align-items: center;
+}
 
+.close-button:hover{
+    background:rgba(33, 150, 243, 0.9)
 }
 
 .close-icon{
     position: absolute;
+    display: block;
     top: 8px;
     right: 8px;
     fill: #212121;
     width: 30px;
     height:30px;
-    top: 8px;
-    right: 8px;
 }
 
 .about-icon{
