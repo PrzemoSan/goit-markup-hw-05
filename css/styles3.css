@@ -55,7 +55,8 @@
     position: relative;
 }
 
-.studio:active::after{
+.studio:active::after,
+.portfolio:active::after{
     position: absolute;
     display: block;
     top:28px;
