@@ -225,7 +225,7 @@ h1{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-/*     overflow: hidden; */
+    /* overflow: hidden; */
     background-color: #FFFFFF;
 }
 
@@ -234,7 +234,11 @@ h1{
     top: 8px;
     right: 8px;
     fill: #212121;
-    
+    z-index: 10;
+    width: 30px;
+    height:30px;
+    top: 8px;
+    right: 8px;
 }
 
 .about-icon{
