@@ -330,9 +330,10 @@ figure{
 
 .label-position{
     position: absolute;
+    display: block;
     width: 182px;
     height: 16px;
-    margin: auto;
+    padding: 27px 94px;
 }
 
 .team-section {
