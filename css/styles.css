@@ -196,7 +196,7 @@ h1{
     animation-iteration-count: 1;
     transition-timing-function: linear;
     transform-origin: 50%, 50%;
-    transition: 3s;
+    transition-property: transform;
 }
 
 @keyframes rotate{
