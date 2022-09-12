@@ -171,18 +171,22 @@ h1{
     left: 0;
 }
 
+.backdrop:active{
+    visibility: hidden;
+}
+
 .is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition-duration: 3000ms;
     transform-origin: center;
-    transform: rotate(720deg) scale(0);
+    transform: rotate(360deg) scale(0);
 }
-
 
 .modal{
     position: absolute;
+    display: block;
     height: 581px;
     width: 528px;
     background-color: #FFFFFF;
@@ -190,9 +194,13 @@ h1{
     border-radius: 4px;
     top: 30%;
     left: 28.5%;
+    transition-duration: 3000ms;
+    transform: rotate(360deg) scale(1);
+    transform-origin: center;
+    opacity: 1;
 }
 
-.anime{
+/* .anime{
     animation-name: rotate;
     animation-duration: 3000ms;
     animation-direction: normal;
@@ -211,7 +219,7 @@ h1{
         background-color: #FFFFFF;
         transform: rotate(1080deg) scale(1)
     }
-}
+} */
 
 .close-button{
     position: absolute;
