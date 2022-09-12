@@ -201,10 +201,10 @@ h1{
 
 @keyframes rotate{
     0% {
-        transform: translateX(-50%) translateY(-50%) rotate(0deg), scale(0); 
+        transform: translate(-50%, -50%), rotate(0deg), scale(0); 
     }
     100%{
-        transform: translateX(-50%) translateY(-50%) rotate(720deg), scale(1);
+        transform: translate(-50%, -50%), rotate(720deg), scale(1);
     }
 }
 
