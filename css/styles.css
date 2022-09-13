@@ -169,35 +169,115 @@ h1{
     background-color: rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
-}
-
-.backdrop:active{
-    visibility: hidden;
+    opacity: 1;
+    transition-duration: 3s;
 }
 
 .is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition-duration: 3000ms;
-    transform-origin: center;
-    transform: rotate(360deg) scale(0);
 }
 
 .modal{
     position: absolute;
-    display: block;
+    display: flex;
     height: 581px;
     width: 528px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    top: 30%;
+    top: 15%;
     left: 28.5%;
-    transition-duration: 3000ms;
-    transform: rotate(360deg) scale(1);
-    transform-origin: center;
-    opacity: 1;
+}
+
+.modal-form{
+    display: block;
+    justify-content: center;
+    text-align: left;
+    height: 581px;
+    width: 528px;
+}
+
+.form-tittle{
+    color: #212121;
+    width: 448px;
+    height: 23px;
+    font-weight: 700;
+    size: 20px;
+    line-height: 1.17;
+    padding: 40px 40px 12px 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.form-label{
+    display: block;
+    margin: 0px 40px 10px 40px;
+}
+
+.com-form-label{
+    display: block;
+    margin: 0px 40px 20px 40px;
+}
+
+.rules-form-label{
+    display: block;
+    margin-top: 0px;
+    margin-left: 40px;
+    white-space: nowrap;
+    width: 397px;
+    height: 24px;
+    size: 14px;
+}
+
+.label-categ{
+    text-align: left;
+}
+
+.label-style{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px; 
+    width: 448px;
+    height: 40px;
+}
+
+.comment-style{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px; 
+    width: 448px;
+    height: 120px;
+    resize: none;
+}
+
+.comment-style:hover,
+.label-style:hover,
+.comment-style:active,
+.label-style:active{
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+
+.form-button{
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    border: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin: 30px auto;
+}
+
+.send{
+    font-weight: 700;
+    size: 16px;
+    width: 48px;
+    height: 30px;
 }
 
 /* .anime{
@@ -311,7 +391,7 @@ figure{
     display: block
 }
 
-.label{
+.job-label{
     position: absolute;
     text-align: center;
     width: 370px;
@@ -556,6 +636,49 @@ figure{
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     height: 44px;
+}
+
+.join{
+    font-weight: 700;
+    color: white;
+    line-height: 1.17;
+    width: 207px;
+    height: 16px;
+    letter-spacing: 0.03;
+    padding: 0px;
+    margin: 12px 578px 20px 78px;
+}
+
+.newsletter-email{
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #FFFFFF 0.6;
+    background-color: #2F303A;
+    padding-left: 16px;
+    margin: 0px 12px 94px 78px;
+    cursor: pointer;
+}
+
+.submit-button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color:#2196F3;
+    cursor: pointer;
+}
+
+.text-button{
+    color: #FFFFFF;
+    width: 82px;
+    height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.06;
+    line-height: 1.88;
 }
 
 .second-menu{
